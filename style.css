@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
 nav{
     background-color: rgba(252, 0, 147, 0.438);
     padding: 10px 20px;
@@ -39,3 +45,40 @@ ul.menu li a {
     color: rgb(255, 0, 119);
     text-decoration: none;
 }
+
+
+h1{
+    align-items: center;
+    text-align: center;
+    color:rgb(255, 162, 235)
+}
+
+
+/*Responsivo*/
+@media (max-width:768px){
+    .hamburguer{
+        display:flex;
+
+    }
+
+
+    ul.menu{
+        display: none;
+        flex-direction:column;
+        background:#ce049b;
+        position:absolute;
+        top:60px;
+        left:0;
+        width:100%;
+
+    }
+
+
+    .menu-toggle::checked
+    +.hamburguer+ul.menu{
+
+        display:flex;
+
+     } 
+     
+    }
