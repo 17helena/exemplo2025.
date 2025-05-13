@@ -65,7 +65,7 @@ h1{
     ul.menu{
         display: none;
         flex-direction:column;
-        background:#ce049b;
+        background:#b4108b;
         position:absolute;
         top:60px;
         left:0;
@@ -80,5 +80,5 @@ h1{
         display:flex;
 
      } 
-     
+
     }
